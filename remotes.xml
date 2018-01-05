@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CAF remote -->
+  <remote  name="caf"
+           fetch="https://source.codeaurora.org/" />
+  <!-- github remote -->
+  <remote name="github"
+          fetch="https://github.com/" />
+  <!-- integer remote -->
+  <remote name="int"
+          revision="omr1"
+          fetch="https://github.com/IntegerOS/" />
+  <!-- integer remote in gitlab -->
+  <remote name="int-gitlab"
+          revision="omr1"
+          fetch="https://gitlab.com/IntegerOS/" />
+  <!-- pixel remote -->
+  <remote name="px"
+          revision="oreo-mr1"
+          fetch="https://github.com/PixelExperience/" />
+  <!-- pixel devices remote -->
+  <remote name="pxd"
+          revision="oreo-mr1"
+          fetch="https://github.com/PixelExperience-Devices/" />
+  <!-- pixel remote in gitlab -->
+  <remote name="px-gitlab"
+          revision="oreo-mr1"
+          fetch="https://gitlab.com/PixelExperience/" />
+
+</manifest>
