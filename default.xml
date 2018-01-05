@@ -2,10 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-8.1.0_r4"
            remote="aosp"
+           sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -621,5 +623,14 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
+
+  <!-- Include remotes -->
+  <include name="remotes.xml" />
+
+  <!-- Track all Integer repos -->
+  <include name="integer.xml" />
 
 </manifest>
