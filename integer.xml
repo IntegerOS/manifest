@@ -99,7 +99,7 @@
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="px" />
   <project path="vendor/extras" name="vendor_extras" remote="px" />
   <project path="vendor/gapps" name="vendor_gapps" remote="px-gitlab" clone-depth="1" />
-  <project path="vendor/pixelxstyle" name="vendor_pixelstyle" remote="px-gitlab" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="px-gitlab" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="px" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="staging/lineage-15.1" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="staging/lineage-15.1">
