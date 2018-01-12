@@ -19,6 +19,9 @@
   <project path="build/kati" name="build_kati" remote="px" />
   <project path="device/qcom/common" name="device_qcom_common" remote="px" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="px" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="staging/lineage-15.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="staging/lineage-15.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="staging/lineage-15.1" />
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
   <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="cm-14.1" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-15.0" />
